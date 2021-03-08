@@ -48,7 +48,6 @@ ul {
 h3 {
     font-family: poppins;
     color: #EFF0F1;
-    font-size: 30px;
     text-align: left;
     font-size: 2.5rem;
 }
@@ -459,29 +458,47 @@ only screen and (max-width: 760px),
 /* About Page */
 
 
-.bluebox {
-  /* background-color: blue; */
+@media screen and (min-width: 800px) {
+  .bluebox{
+    background-image: linear-gradient(#8E5CFB, #3A0ABB);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+ 
+}
+}
+
+@media screen and (max-width: 800px) {
+  .bluebox {
+    background-image: linear-gradient(#8E5CFB, #3A0ABB);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+}
+
+/* .bluebox {
+
   background-image: linear-gradient(#8E5CFB, #3A0ABB);
-  /* background-color: #3A0ABB; */
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
 
-}
+} */
   
-  .aboutme {
-    float: right;
-    padding-right: 60vh;
-
-  }
 
 /* Headshot for PC */
 @media screen and (min-width: 800px) {
   .headshot {
     width: 500px;
-    padding-left: 10vw;
-    padding-top:7vw ;
+    padding-left: 13vw;
+    padding-top:3vw ;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
   }
 }
 
@@ -492,4 +509,46 @@ only screen and (max-width: 760px),
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
+}
+
+@media screen and (min-width: 800px) {
+  .aboutme {
+    float: right;
+    padding-right: 63.5vh;
+    /* font-size: 55px; */
+}
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme  {
+   text-align: center;
+   display: block;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .blurb{
+    text-align: justify;
+    padding-left: 78vh;
+    display: block;
+    width: 40vw;
+    position: relative;
+    top: -270px;
+ 
+}
+}
+
+@media screen and (max-width: 800px) {
+  .blurb {
+   text-align: left;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+  }
+}
+
+
