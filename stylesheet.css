@@ -270,6 +270,7 @@ a {
 
 #and {
   text-align: right;
+  padding-right: .2em;
 }
 /* 
 Responsive Heading Text  */
@@ -295,6 +296,7 @@ flex-wrap: wrap;
 align-content: center;
 align-self:baseline;
 }
+
 
 
 /* Dev and Designer Screen Responsiveness */
@@ -530,7 +532,7 @@ filter: drop-shadow(5px 5px 5px #222);
 @media screen and (min-width: 800px) {
 .aboutme {
   float: right;
-  padding-right: 52vh;
+  padding-right: 44.3vh;
   padding-top: 0.2vh;
 }
 }
@@ -596,28 +598,141 @@ Computer */
 }
 }
 
-/* 
-Computer */
-
 @media screen and (min-width: 900px) {
-.container3 {
+.container1 {
 
 }
 
-.container4 {
+.container2 {
   display: flex;
   justify-content:space-between;
 }
 }
+
+
+
+
 /* Moblie */
 @media screen and (max-width: 780px) {
-.container4 {
+.container1 {
 
 }
 }
 
 
+@media screen and (min-width: 900px) {
+  .container3 {
+  
+  }
+  
+  .container4 {
+    display: flex;
+    justify-content:space-between;
+  }
+  }
+  
+  
+  
+  
+  /* Moblie */
+  @media screen and (max-width: 780px) {
+  .container3 {
+  
+  }
+  }
 
+  /* .container3  {
+    flex-wrap:wrap;
+    padding-left: 5em;
+    padding-right: 5em;
+    justify-content:space-between;
+    align-items: stretch;
+
+  }
+  .container4  {
+    flex-wrap:wrap;
+    padding-left: 5em;
+    padding-right: 5em;
+    justify-content:space-between;
+    align-items: stretch;
+  } */
+
+
+  .coder {
+   
+text-align: left;
+order: 1;
+background-color: #E8E6EC;
+border-radius: 50px;
+margin-top: 60px;
+max-width: 550px;
+padding: 30px;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+  }
+
+  .general {
+   
+text-align: left;
+order: 1;
+background-color: #E8E6EC;
+border-radius: 50px;
+margin-top: 60px;
+max-width: 550px;
+padding: 30px;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  }
+
+  .uni{
+       
+text-align: left;
+order: 1;
+background-color: #E8E6EC;
+border-radius: 50px;
+margin-top: 60px;
+max-width: 550px;
+padding: 30px;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  }
+
+  .delft {
+text-align: left;
+order: 1;
+background-color: #E8E6EC;
+border-radius: 50px;
+margin-top: 60px;
+max-width: 550px;
+padding: 30px;
+box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  }
 
 
 .bki {
@@ -698,3 +813,47 @@ box-shadow:
 text-align: center;
 color: #150443;
 }
+
+.resume_button {
+  background-image: linear-gradient(#8E5CFB, #3A0ABB);
+  padding: 1.5em 4em;
+  border-radius: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  
+  
+  
+}
+.resume {
+  font-size: 1.5em;
+  text-decoration: none;
+  
+
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  .solidfooter{
+  height: 7vw;
+  padding: 50px;
+  text-align: center;
+  background-color: #3A0ABB;
+  color: white;
+  overflow: hidden;
+  
+  }
+  
+  }
+  @media screen and (max-width: 768px) {
+  .solidfooter{
+  padding: 50px;
+  height: 13vh;
+  text-align: center;
+  background-color: #3A0ABB;
+  color: white;
+  overflow: hidden;
+  
+  }
+  }
