@@ -63,7 +63,7 @@ h4 {
 h5 {
   font-family: poppins;
   color: #EFF0F1;
-  font-size:55px
+  font-size: 6.5vh;
 }
 
 
@@ -286,6 +286,14 @@ Responsive Heading Text  */
   display: flex;
   flex-direction: column;
   padding: 0em 10vw;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 10vw;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self:baseline;
 }
   
 
@@ -569,19 +577,6 @@ Computer */
 @media screen and (min-width: 900px) {
   .container1 {
 
-
-    /* display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    align-content:space-between;
-   padding-right: 10%;
-   padding-left: 10% ; */
-   /* margin-left: 15%;
-   margin-right: 15%; */
-   /* width: 500px; */
-    /* padding: 0em 12em; */
   }
 
   .container2 {
@@ -596,18 +591,32 @@ Computer */
 /* Moblie */
 @media screen and (max-width: 780px) {
   .container1 {
-    /* display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10%;
-    width: 80%; */
+  
   }
 }
+
+/* 
+Computer */
+
+@media screen and (min-width: 900px) {
+  .container3 {
+
+  }
+
+  .container4 {
+    display: flex;
+    justify-content:space-between;
+  }
+}
+/* Moblie */
+@media screen and (max-width: 780px) {
+  .container4 {
+  
+  }
+}
+
+
+
 
 
 .bki {
@@ -682,4 +691,9 @@ Computer */
  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
  0 100px 80px rgba(0, 0, 0, 0.12)
+ }
+
+ .qual {
+  text-align: center;
+  color: #150443;
  }
