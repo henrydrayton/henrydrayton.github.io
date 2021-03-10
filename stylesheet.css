@@ -104,6 +104,7 @@ a {
   width: 100%;
   z-index: 3;
   padding-right: 40vh;
+
 }
 
 .header ul {
@@ -153,7 +154,7 @@ a {
   transition: max-height .2s ease-out;
   font-size: 1.2em;
   float: right;
-  padding-right: 4vh;
+  padding-right: 7.5vh;
 
 }
 
@@ -163,36 +164,41 @@ a {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding-right: 7.5vh;
+  padding-right: 13vh;
   padding-top: 3vh;
   position: relative;
   user-select: none;
   
 }
 
+/* Nav icon color */
+
 .header .menu-icon .navicon {
-  background: white;
+ 
   display: block;
-  height: 2px;
+  height: 4px;
   position: relative;
   transition: background .2s ease-out;
   width: 18px;
-  
-  
+ 
+
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #EFF0F1;
+  background: #150443;
+  border: 2px solid white;
+  border-radius: 4px;
   content: '';
   display: block;
   height: 100%;
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
- 
   
 }
+
+/* Nav icon color */
 
 .header .menu-icon .navicon:before {
   top: 5px;
@@ -486,7 +492,7 @@ td:before {
 height: 43vw;
 padding: 50px;
 text-align: center;
-background-image: linear-gradient(#8E5CFB, #3A0ABB);
+background-image: linear-gradient(#3A0ABB, #8E5CFB);
 color: white;
 overflow: hidden;
 
@@ -817,18 +823,21 @@ color: #150443;
 .resume_button {
   background-image: linear-gradient(#8E5CFB, #3A0ABB);
   padding: 1.5em 4em;
-  border-radius: 40px;
+  border-radius: 30px;
   border: none;
-  display: flex;
   justify-content: center;
-  
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
   
   
 }
 .resume {
   font-size: 1.5em;
   text-decoration: none;
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
   
 }
@@ -839,7 +848,7 @@ color: #150443;
   height: 7vw;
   padding: 50px;
   text-align: center;
-  background-color: #3A0ABB;
+  background-color: #150443;
   color: white;
   overflow: hidden;
   
@@ -851,7 +860,7 @@ color: #150443;
   padding: 50px;
   height: 13vh;
   text-align: center;
-  background-color: #3A0ABB;
+  background-color: #150443;
   color: white;
   overflow: hidden;
   
