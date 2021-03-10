@@ -857,3 +857,79 @@ color: #150443;
   
   }
   }
+
+  .blog {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;;
+    text-align: center;
+  }
+ 
+
+  @media (min-width: 800px) {
+    .blogtext{
+      text-align: justify;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 56%;
+      padding-top: 30px;
+      padding-bottom: 5%;
+    }
+
+    }
+    
+    @media (max-width: 800px) {
+    .blogtext{
+      text-align: justify;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      padding-top: 30px;
+      padding-bottom: 10%;
+    }
+    }
+
+  
+
+  @media (min-width: 800px) {
+    .blogphoto{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+
+    }
+
+    }
+    
+    @media (max-width: 800px) {
+    .blogphoto {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80vw;
+    }
+    }
+  
+    @media (min-width: 800px) {
+      .blogheading{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+     padding-left: 120px;
+     padding-bottom: 2em;
+      }
+  
+      }
+      
+      @media (max-width: 800px) {
+        .blogheading {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      }
