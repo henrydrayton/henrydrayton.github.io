@@ -5,20 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="stylesheet.css">  
 </head>
-<body>
+<body style="background-color: #150443;">
     <h4>
         <header class="header">
-            <a href="index.html" class="logo" style="color: #150443">Henry Drayton</a>
+            <a href="index.html" class="logo" >Henry Drayton</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
             <ul class="menu">
-              <li ><a href="about.html" style="color: #150443">About</a></li>
-              <li><a href="blog.html" style="color: #150443">Blog</a></li>
-              <li><a href="contact.html" style="color: #150443">Contact</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li><a href="blog.html" >Blog</a></li>
+              <li><a href="contact.html" >Contact</a></li>
             </ul>
           </header>
         </h4>
+
+<h2 class="chat">Let's Chat!</h2>
+
+<img src="henry3.svg" alt="henry illustraion" class="henry3">
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname"></label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname"></label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="subject"></label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
 </body>
 </html>
