@@ -953,12 +953,12 @@ color: #150443;
       
       @media (max-width: 800px) {
         .blogheading {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding-right: 5px;
-        padding-left: 5px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+         padding-left: 50px;
+         padding-bottom: 0em;
+         padding-top: 1.5em;
       }
       }
 
@@ -969,7 +969,7 @@ color: #150443;
         height: 20vw;
         padding: 50px;
         text-align: center;
-  
+
         background-color: #E8E6EC;
         overflow: hidden;
         
@@ -987,19 +987,11 @@ color: #150443;
         }
         }
 
-.chat {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 250px;
-  text-align: left;
-  padding-left: 150px;
-}
 
 @media screen and (min-width: 768px) {
   .henry3{
   padding-left: 150px;
-  width: 200px;
+  width: 400px;
   }
   
   }
@@ -1010,6 +1002,7 @@ color: #150443;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  flex-wrap: wrap;
   
   }
   }
@@ -1018,15 +1011,23 @@ color: #150443;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      padding-top: 250px;
-      text-align: left;
-      padding-left: 150px;
+      padding-top: 150px;
+      text-align: center;
+      padding-left: 290px;
+     
     }
-    
     }
+
     @media screen and (max-width: 768px) {
     .chat{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-top: 25%;
+      font-size: 6vh;
     }
     }
     
@@ -1043,6 +1044,7 @@ color: #150443;
       padding: 12px;
       border: 1px solid #ccc;
       margin-top: 6px;
+      border-radius: 30px;
       margin-bottom: 16px;
       resize: vertical;
       box-sizing: border-box;
@@ -1065,21 +1067,41 @@ color: #150443;
     
     /* Style the container/contact section */
     .container {
-      /* border-radius: 5px; */
+    
       background-color: #150443;
-      /* padding: 10px; */
+     
       box-sizing: border-box;
+      padding-right: 150px;
     }
+
+    
+
     
     /* Create two columns that float next to eachother */
-    .column {
-      float: left;
-      width: 50%;
-      margin-top: 6px;
-      padding: 20px;
-      box-sizing: border-box;
-    }
     
+    
+@media screen and (min-width: 768px) {
+  .column{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  }
+  @media screen and (max-width: 768px) {
+  .column{
+    padding: 30px;
+    box-sizing: border-box;
+   align-content: center;
+   width: 80%;
+
+  }
+  }
+    
+
+
     /* Clear floats after the columns */
     .row:after {
       content: "";
@@ -1097,8 +1119,3 @@ color: #150443;
       }
     }
 
-    /* .padding3 {
-      margin: 0;
-      border:0;
-      padding:0;
-    } */
