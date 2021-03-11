@@ -99,13 +99,6 @@ a {
 
 /* header */
 
-.header {
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-  padding-right: 40vh;
-
-}
 
 .header ul {
   margin: 0;
@@ -1065,14 +1058,32 @@ color: #150443;
       box-sizing: border-box;
     }
     
-    /* Style the container/contact section */
-    .container {
-    
-      background-color: #150443;
-     
+  
+
+
+    @media screen and (min-width: 768px) {
+      .container{
+        background-color: #150443;
       box-sizing: border-box;
+      margin-right: auto;
+      margin-left: auto;
       padding-right: 150px;
-    }
+      }
+      
+      }
+      @media screen and (max-width: 768px) {
+      .container{
+        background-color: #150443;
+        box-sizing: border-box;
+        margin-right: auto;
+        margin-left: auto;
+        
+       
+      }
+      }
+    
+
+
 
     
 
@@ -1092,10 +1103,14 @@ color: #150443;
   }
   @media screen and (max-width: 768px) {
   .column{
-    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
     box-sizing: border-box;
-   align-content: center;
-   width: 80%;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
 
   }
   }
@@ -1119,3 +1134,11 @@ color: #150443;
       }
     }
 
+
+    .header {
+      position: fixed;
+      width: 100%;
+      z-index: 3;
+      padding-right: 40vh;
+
+    }
