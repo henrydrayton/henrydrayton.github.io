@@ -640,21 +640,6 @@ Computer */
   }
   }
 
-  /* .container3  {
-    flex-wrap:wrap;
-    padding-left: 5em;
-    padding-right: 5em;
-    justify-content:space-between;
-    align-items: stretch;
-
-  }
-  .container4  {
-    flex-wrap:wrap;
-    padding-left: 5em;
-    padding-right: 5em;
-    justify-content:space-between;
-    align-items: stretch;
-  } */
 
 
   .coder {
@@ -735,7 +720,6 @@ box-shadow:
 
 
 .bki {
-/* flex-grow: 1; */
 text-align: left;
 order: 1;
 background-color: #E8E6EC;
@@ -754,7 +738,6 @@ box-shadow:
 
 }
 .zhik {
-/* flex-grow: 1; */
 margin-top: 60px;
 text-align: left;
 order: 2;
@@ -774,7 +757,6 @@ box-shadow:
 
 .sphere {
 margin-top: 60px;
-/* flex-grow: 1; */
 text-align: left;
 order: 3;
 background-color: #E8E6EC;
@@ -791,7 +773,6 @@ box-shadow:
 }
 
 .tech {
-/* flex-grow: 1; */
 margin-top: 60px;
 text-align: left;
 order: 4;
@@ -860,11 +841,16 @@ color: #150443;
   }
   }
 
-  /* .blog {
-    padding-top: 2.2em;
-    padding-bottom: 3em;;
-    text-align: center;
-  } */
+.blogdate {
+  text-align: right;
+  color:#150443; 
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
+     padding-right: 12vw;
+}
+
+
 
   @media (min-width: 800px) {
     .blog{
@@ -1026,10 +1012,6 @@ color: #150443;
     
 /* Chat form */
 
-/* 
-  * {
-      box-sizing: border-box;
-    } */
     
     /* Style inputs */
     input[type=text], select, textarea {
@@ -1058,7 +1040,6 @@ color: #150443;
       box-sizing: border-box;
     }
     
-  
 
 
     @media screen and (min-width: 768px) {
@@ -1082,13 +1063,7 @@ color: #150443;
       }
       }
     
-
-
-
     
-
-    
-    /* Create two columns that float next to eachother */
     
     
 @media screen and (min-width: 768px) {
@@ -1116,8 +1091,6 @@ color: #150443;
   }
     
 
-
-    /* Clear floats after the columns */
     .row:after {
       content: "";
       display: table;
@@ -1125,7 +1098,7 @@ color: #150443;
       box-sizing: border-box;
     }
     
-    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    /* Responsive layout - when the screen is less than 600px wide*/
     @media screen and (max-width: 600px) {
       .column, input[type=submit] {
         width: 100%;
