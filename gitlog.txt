@@ -1,3 +1,39 @@
+commit c3cf045dc3710678ed66168497f6a6cbb6b47f3c
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Fri Mar 12 17:11:20 2021 +1100
+
+    added slide deck
+
+commit f533d20a7bc598bf7a59e3d7410a92a5189d02e8
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Fri Mar 12 16:52:04 2021 +1100
+
+    changed image names
+
+commit f7cc3b7d5221b5bfd2134a15862e0d0ebec8e9a7
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Fri Mar 12 16:44:42 2021 +1100
+
+    added imgs
+
+commit e14bdfdb49a7d32211fee6b8c70754241741b722
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Fri Mar 12 16:35:36 2021 +1100
+
+    updated with 512 and 384 sri
+
+commit adc65b95335f76b4f59b950e24a61acda7921487
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Fri Mar 12 10:18:17 2021 +1100
+
+    ready for submission
+
+commit 7bae83176d1568ef39af653a3d3ef98fe5f866a5
+Author: henrydrayton <henrydrayton0@gmail.com>
+Date:   Thu Mar 11 16:59:14 2021 +1100
+
+    gitlog added to repository
+
 commit 24a7f06c8f5cf3c32b242416e8087cfac01eef44
 Author: henrydrayton <henrydrayton0@gmail.com>
 Date:   Thu Mar 11 16:50:33 2021 +1100
