@@ -1,3 +1,5 @@
+require './quotes.rb'
+
 require 'tty-font'
 
 font = TTY::Font.new(:doom)
@@ -7,7 +9,7 @@ puts "Hello and welcome to THE UNDERDOG a game to test your Ruby general knowled
 \nThe quiz consists of 10 multiple-choice questions with your total score being presented at the end.
 \nYou have 15-seconds to answer each question so be quick!
 \nAnswer each question by entering the letter that corresponds to your answer.
-\nLet’s beat those smartie pants!\n" 
+\nLet’s beat those know-it-alls!\n" 
 
 require "tty-prompt"
 
@@ -35,7 +37,6 @@ class Question
          
     end
 end
-
 
 
 p1 = "\nWhich of the following datatypes are valid in Ruby?\n(a)Numbers\n(b)Boolean\n(c)String\n(d)All of the mentioned"
