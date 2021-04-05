@@ -6,10 +6,14 @@ puts font.write("THE UNDERDOG")
 puts "Hello and welcome to THE UNDERDOG a game to test your Ruby general knowledge and improve your Kahoot skills!
 \nThe quiz consists of 10 multiple-choice questions with your total score being presented at the end.
 \nYou have 15-seconds to answer each question so be quick!
-\nEnter the letter that corresponds to your answer.
-\nEnter the letter A to begin.
+\nAnswer each question by entering the letter that corresponds to your answer.
 \nLet’s beat those smartie pants!\n" 
 
+require "tty-prompt"
+
+prompt = TTY::Prompt.new
+
+prompt.keypress("\nPress any key to begin...")
 
 require 'ruby2d'
 
@@ -23,7 +27,6 @@ song.play
 
 end
 
-
 class Question 
     attr_accessor :prompt, :answer
     def initialize(prompt, answer)
@@ -32,6 +35,7 @@ class Question
          
     end
 end
+
 
 
 p1 = "\nWhich of the following datatypes are valid in Ruby?\n(a)Numbers\n(b)Boolean\n(c)String\n(d)All of the mentioned"
@@ -67,13 +71,11 @@ def run_quiz(questions)
          if answer == question.answer
               score += 1
          end
+         
     end
     puts "you got #{score} out of #{questions.length()}"
+
 end
-# if 
-#     every_twenty_seconds > (20)
-# end
-# end
 
 run_quiz(questions)
 # load './timer.rb'
