@@ -1,4 +1,3 @@
-# require './quotes.rb'
 
 require 'tty-font'
 
@@ -17,17 +16,17 @@ prompt = TTY::Prompt.new
 
 prompt.keypress("\nPress any key to begin...")
 
-# require 'ruby2d'
+require 'ruby2d'
 
-# class KahootMusic
+class KahootMusic
     
-# song = Music.new('kahoot_music.mp3')
+song = Music.new('kahoot_music.mp3')
 
-# # Play the music
-# song.loop = true
-# song.play
+# Play the music
+song.loop = true
+song.play
 
-# end
+end
 
 
 require "timeout"
@@ -50,15 +49,30 @@ questions = [
   
 ]
 
-answers = questions.map do |question|
-  puts question[0]
+quotes =[
+"\nWinston Churchill said, “The empires of the future are the empires of the mind.”",
+"\nTom Peters said, “Heavy lifting is out; brains are in.”",
+"\nTransformation happens one darn person at a time.",
+"\n“Any fool can know. The point is to understand.”― Albert Einstein",
+"\n“I did then what I knew how to do. Now that I know better, I do better.” ― Maya Angelou",
+"\n“Great minds are always feared by lesser minds.” ― Dan Brown, The Lost Symbol",
+"\nKnowledge, like air, is vital to life. Like air, no one should be denied it.” ― Alan Moore, V for Vendetta",
+"\n“Beware of the man who works hard to learn something, learns it, and finds himself no wiser than before.” ― Kurt Vonnegut, Cat's Cradle",
+"\n“An investment in knowledge always pays the best interest.” ― Benjamin Franklin",
+"\n“A little Learning is a dangerous Thing.” ― Alexander Pope"
+]
+
+
+answers = questions.map.with_index do |question, i|
+    puts quotes[i]
+    puts question[0]
   question[1].each do |option|
     puts option
   end
 
   answer = nil
   begin
-    Timeout::timeout 5 do
+    Timeout::timeout 15 do
       answer = gets.chomp.to_i
 end
   rescue Timeout::Error => e
