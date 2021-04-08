@@ -52,7 +52,6 @@ questions = [
 ]
 
 require 'colorize'
-require 'colorized_string'
 
 quotes = [
 "\nWinston Churchill said, “The empires of the future are the empires of the mind.”".colorize(:blue),
