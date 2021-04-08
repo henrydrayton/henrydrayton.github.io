@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 
 require 'tty-font'
 
@@ -49,17 +51,20 @@ questions = [
   
 ]
 
-quotes =[
-"\nWinston Churchill said, “The empires of the future are the empires of the mind.”",
-"\nTom Peters said, “Heavy lifting is out; brains are in.”",
-"\nTransformation happens one darn person at a time.",
-"\n“Any fool can know. The point is to understand.”― Albert Einstein",
-"\n“I did then what I knew how to do. Now that I know better, I do better.” ― Maya Angelou",
-"\n“Great minds are always feared by lesser minds.” ― Dan Brown, The Lost Symbol",
-"\nKnowledge, like air, is vital to life. Like air, no one should be denied it.” ― Alan Moore, V for Vendetta",
-"\n“Beware of the man who works hard to learn something, learns it, and finds himself no wiser than before.” ― Kurt Vonnegut, Cat's Cradle",
-"\n“An investment in knowledge always pays the best interest.” ― Benjamin Franklin",
-"\n“A little Learning is a dangerous Thing.” ― Alexander Pope"
+require 'colorize'
+require 'colorized_string'
+
+quotes = [
+"\nWinston Churchill said, “The empires of the future are the empires of the mind.”".colorize(:blue),
+"\nTom Peters said, “Heavy lifting is out; brains are in.”".colorize(:blue),
+"\nTransformation happens one darn person at a time.".colorize(:blue),
+"\n“Any fool can know. The point is to understand.”― Albert Einstein".colorize(:blue),
+"\n“I did then what I knew how to do. Now that I know better, I do better.” ― Maya Angelou".colorize(:blue),
+"\n“Great minds are always feared by lesser minds.” ― Dan Brown, The Lost Symbol".colorize(:blue),
+"\nKnowledge, like air, is vital to life. Like air, no one should be denied it.” ― Alan Moore, V for Vendetta".colorize(:blue),
+"\n“Beware of the man who works hard to learn something, learns it, and finds himself no wiser than before.” ― Kurt Vonnegut, Cat's Cradle".colorize(:blue),
+"\n“An investment in knowledge always pays the best interest.” ― Benjamin Franklin".colorize(:blue),
+"\n“A little Learning is a dangerous Thing.” ― Alexander Pope".colorize(:blue)
 ]
 
 
