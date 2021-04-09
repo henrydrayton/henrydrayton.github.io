@@ -44,10 +44,10 @@ I created this Trello board at the very start of the project to outline and plan
 
 | Test no.      | Feature |        Test Type       |  Expected Outcome  | Test Steps |      Actual Outcome  | 
 | ----------- | ----------- | ----------|-----------|----------|--------|
-| 1     | KahootMusic      |    Manual: Testing if sountrack commences after pressing key to begin.        |           |          | 
-| 2   |shared       |  Manual: Testing if user scores are accurately calculated      |           |          |
-| 1     | Timeout       |  Manual: Testing Timeout gem loops until all questions complete            |           |          |
-| 2   | answer        |  Manual: Testing if blank answers = nil and do not contribute to final score         |           |          |
+| 1     | KahootMusic      |    Manual: Testing if sountrack commences after pressing key to begin.        |        Sountrack plays and continuously loops until terminated   |     1. Key to begin. 2. Wait for sountrack to play full length. 3. Wait for loop. 4. Terminate     | TRUE
+| 2   |shared       |  Manual: Testing if user scores are accurately calculated      |  All correct answers =+ 1         |    1. Answer correctly 2. If score = 10/10 3. Answer incorrectly 4. If score <10      |TRUE
+| 3    | Timeout       |  Manual: Testing Timeout gem loops until all questions complete            |  Loops until all questions complete then terminates         |   1. Commence game 2. Wait till all questions terminate 3. If true- terminate game       |TRUE
+| 4   | answer        |  Manual: Testing if blank answers = nil and do not contribute to final score         |  All blank answers = nil, do not contribute to score         |    1. Commence game 2. Wait till all questions terminate 3. If score = 0/10      |TRUE
 
  ## Help
 
