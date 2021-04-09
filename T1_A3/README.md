@@ -3,7 +3,7 @@
 ## THE UNDERDOG 
 #####  Created by: Henry Drayton
 
-![Opeening Page](/docs/header.png "Opening Page").
+![Opening Page](/docs/header.png "Opening Page").
 
 
 Most people dread their morning commute; at Coder Academy, students often dread their morning Kahoot. It seems as though there are a select few who take the podium spot each morning, leaving the rest of the class to question their adequacy. This terminal application is designed for students to test their knowledge of Ruby outside of class, preparing them for battle the next day. Accompanied by the monotonous Kahoot soundtrack, a fifteen-second time limit and inspirational quotes, this application turns students into an army that even William Wallace would be proud of. THE UNDERDOG is explicitly for Coder Academy students; however, it is also beneficial for anyone looking to refresh their Ruby general knowledge. Although the final application does not present the same graphical qualities as seen in Kahoot, it mentally prepares students and develops the quick hands required on game day. 
@@ -31,3 +31,13 @@ The application presents inspirational quotes after each question. The Colorize 
 For the game to be beneficial to the users, the commands must be easy to interpret. When the user launches the game, a graphical heading and a set of instructions display on the screen. These easy to read instructions cover the rules and how the user should answer each question. The user presses any key to begin and the timer starts its countdown. Error handling is used within the Timeout gem with the rescue command. If the timer reaches the fifteen-second limit, the program records nil for that question. The user answers each question by typing the number which corresponds to their answer and then hitting enter. The user’s input is displayed on the screen once they respond to the question as a form of visual feedback. The user’s final score is presented to them at the end as a value /10. The user can also compare their answers to the correct answers to check where they may have gone wrong. 
 
 ## Control Flow and Logic
+
+![Control Flow](/docs/control_flow.png "Control Flow").
+
+ ## Implementation Plan 
+
+I created this Trello board at the very start of the project to outline and plan my app’s development process. The plan is in six segments, Gems, To DO, Schedule, Presentation, Documentation and Code Requirements. Within the To Do section, there are checklists that I marked every time I completed a task. The schedule section allowed me to keep track of allocated time periods to avoid getting caught up on unnecessary features.
+
+ ![Control Flow](/docs/trello.png "Control Flow").
+
+ ## Help
