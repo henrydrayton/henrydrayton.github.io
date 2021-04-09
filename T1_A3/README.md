@@ -42,3 +42,33 @@ I created this Trello board at the very start of the project to outline and plan
 
  ## Help
 
+
+### Installation Instructions
+
+First, install the Ruby program here https://www.ruby-lang.org/en/documentation/installation/
+
+Download the GitHub repository above. 
+
+Download Bundler in your command line by typing this 
+
+        gem install bundler     
+
+Then run this command. 
+
+        bundle install
+
+To launch the application, run this command. 
+
+        ruby THE_UNDERDOG.rb
+
+### Dependencies for the application
+Please ensure all of the following Gems are downloaded and required before commencing the program. 
+<ul>
+
+<li> gem "ruby2d", "~> 0.9.5" </li>
+<li> gem "tty-prompt", "~> 0.23.0" </li>
+<li> gem "tty-font", "~> 0.5.0" </li>
+<li> gem "colorize", "~> 0.8.1" </li>
+<li> gem "timeout", "~> 0.1.1" </li>
+
+</ul>
