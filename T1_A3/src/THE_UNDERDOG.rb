@@ -99,3 +99,76 @@ puts "\nCompare you answers\n YOUR ANSWERS: #{answers} \n CORRECT ANSWERS #{resu
 
 
 
+# Testing
+
+# Test Number 
+# 1
+
+# Feature
+# KahootMusic
+
+# Test Type
+# Manual: Testing if sountrack commences after pressing key to begin. 
+
+# Expected Outcome
+# Sountrack plays and continuously loops until terminated.
+
+# Test Steps
+# 1. Key to begin. 2. Wait for sountrack to play full length. 3. Wait for loop. 4. Terminate
+
+# Actual Outcome
+# TRUE
+
+# Test Number 
+# 2
+
+# Feature
+# shared
+
+# Test Type
+# Manual: Testing if user scores are accurately calculated
+
+# Expected Outcome
+# All correct answers =+ 1
+
+# Test Steps
+# 1. Answer correctly 2. If score = 10/10 3. Answer incorrectly 4. If score <10
+
+# Actual Outcome
+# TRUE
+
+# Test Number 
+# 3
+
+# Feature
+# Timeout
+
+# Test Type
+# Manual: Testing Timeout gem loops until all questions complete
+
+# Expected Outcome
+# Loops until all questions complete then terminates
+
+# Test Steps
+# 1. Commence game 2. Wait till all questions terminate 3. If true- terminate game
+
+# Actual Outcome
+# TRUE
+
+# Test Number 
+# 4
+
+# Feature
+# answer
+
+# Test Type
+# Manual: Testing if blank answers = nil and do not contribute to final score
+
+# Expected Outcome
+# All blank answers = nil, do not contribute to score
+
+# Test Steps
+# 1. Commence game 2. Wait till all questions terminate 3. If score = 0/10
+
+# Actual Outcome
+# TRUE
