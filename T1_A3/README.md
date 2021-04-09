@@ -43,7 +43,7 @@ I created this Trello board at the very start of the project to outline and plan
 
  ![Control Flow](./docs/trello.png "Control Flow").
 
-### Testing
+## Testing
 
 | Test no.      | Feature |        Test Type       |  Expected Outcome  | Test Steps |      Actual Outcome  | 
 | ----------- | ----------- | ----------|-----------|----------|--------|
