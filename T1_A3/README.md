@@ -40,6 +40,15 @@ I created this Trello board at the very start of the project to outline and plan
 
  ![Control Flow](./docs/trello.png "Control Flow").
 
+### Testing
+
+| Test no.      | Feature |        Test Type       |  Expected Outcome  | Test Steps |      Actual Outcome  | 
+| ----------- | ----------- | ----------|-----------|----------|--------|
+| 1     | KahootMusic      |    Manual: Testing if sountrack commences after pressing key to begin.        |           |          | 
+| 2   |shared       |  Manual: Testing if user scores are accurately calculated      |           |          |
+| 1     | Timeout       |  Manual: Testing Timeout gem loops until all questions complete            |           |          |
+| 2   | answer        |  Manual: Testing if blank answers = nil and do not contribute to final score         |           |          |
+
  ## Help
 
 
