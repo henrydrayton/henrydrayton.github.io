@@ -37,6 +37,8 @@ For the game to be beneficial to the users, the commands must be easy to interpr
 
  ## Implementation Plan 
 
+View the Trello board here: https://trello.com/b/oTfnxE5I/t1a3
+
 I created this Trello board at the very start of the project to outline and plan my app’s development process. The plan is in six segments, Gems, To DO, Schedule, Presentation, Documentation and Code Requirements. Within the To Do section, there are checklists that I marked every time I completed a task. The schedule section allowed me to keep track of allocated time periods to avoid getting caught up on unnecessary features.
 
  ![Control Flow](./docs/trello.png "Control Flow").
