@@ -25,7 +25,7 @@ require 'ruby2d'
 
 class KahootMusic
     
-song = Music.new('kahoot_music.mp3')
+song = Music.new('../kahoot_music.mp3')
 
 # Play the music
 song.loop = true
