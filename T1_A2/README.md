@@ -2,7 +2,7 @@
 # HTML/CSS Portfolio 
 <br>
 
-##### Link (URL) to published portfolio website
+### Link (URL) to published portfolio website
 https://peaceful-colden-d9dbc9.netlify.app/index.html
 
 ## Purpose
@@ -28,11 +28,11 @@ There are several critical elements to my design that are concurrent with premiu
 <img src="./renders/ipad2.png" alt="drawing" width="250vw" />
 
 ## Computer Renders
-<div text-align= "center">
-<img src="./renders/comp1.png" alt="drawing" width="700vw"/>
-<img src="./renders/comp2.png" alt="drawing" width="700vw"/>
-<img src="./renders/comp3.png" alt="drawing" width="700vw"/>
-<img src="./renders/comp4.png" alt="drawing" width="700vw"/>
+<div align-content= "center">
+<img src="./renders/comp1.png" alt="drawing"/>
+<img src="./renders/comp2.png" alt="drawing"/>
+<img src="./renders/comp3.png" alt="drawing"/>
+<img src="./renders/comp4.png" alt="drawing"/>
 </div>
 
 ## Target audience
