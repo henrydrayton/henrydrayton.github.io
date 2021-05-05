@@ -12,7 +12,14 @@ This project aims to develop a portfolio to display my competencies as a full-st
 There are several critical elements to my design that are concurrent with premium web platforms. The site contains a contact page directly linked to my email; this provides employers with an avenue for communication without listing my email or phone number on the internet. The page also has links to relative social platforms, including GitHub, LinkedIn and Twitter, so that users can view my entire professional internet presence. The website also features a resume button on the About page where employers can view or download my CV. On top of these functional attributes, the whole site follows a strict colour scheme of blue’s and purple, which elegantly contrast against grey shades. Font, Poppins is used for headers, Roboto for paragraphs and Days One for specific subheadings. 
 
 ## Sitemap
-<img src="./sitemap.png" alt="drawing" width="350vw"/>
+<div  align="center">
+<img src="./sitemap.png" alt="drawing" width="400vw" />
+</div>
+
+## Wireframes
+<div  align="center">
+<img src="./wireframes/wire.png" alt="drawing" />
+</div>
 
 ## iPhone Renders
 <div align= "center">
