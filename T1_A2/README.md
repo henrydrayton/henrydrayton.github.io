@@ -1,23 +1,39 @@
 # henrydrayton.github.io
-# Portfolio Description
+# HTML/CSS Portfolio 
+<br>
 
-# Link (URL) to published portfolio website
+##### Link (URL) to published portfolio website
 https://peaceful-colden-d9dbc9.netlify.app/index.html
 
-# Purpose
+## Purpose
 This project aims to develop a portfolio to display my competencies as a full-stack developer to prospective employers.  The platform is to be maintained throughout my professional career and will present my past and future work.  As I grow as a developer, the website needs to reflect this. The blog section is excellent for this as it allows for the chronological logging of projects. 
 
-# Functionality / features
+## Functionality / Features
 There are several critical elements to my design that are concurrent with premium web platforms. The site contains a contact page directly linked to my email; this provides employers with an avenue for communication without listing my email or phone number on the internet. The page also has links to relative social platforms, including GitHub, LinkedIn and Twitter, so that users can view my entire professional internet presence. The website also features a resume button on the About page where employers can view or download my CV. On top of these functional attributes, the whole site follows a strict colour scheme of blue’s and purple, which elegantly contrast against grey shades. Font, Poppins is used for headers, Roboto for paragraphs and Days One for specific subheadings. 
 
-# Sitemap
-![Sitemap](https://henrydrayton.github.io/sitemap.png)
+## Sitemap
+<img src="./sitemap.png" alt="drawing" width="350vw"/>
 
-# Screenshots
-![Screenshot1](https://henrydrayton.github.io/screen1.png)
-![Screenshot2](https://henrydrayton.github.io/screen2.png)
-![Screenshot3](https://henrydrayton.github.io/screen3.png)
-![Screenshot4](https://henrydrayton.github.io/screen4.png)
+## iPhone Renders
+<div text-align= "center">
+<img src="./renders/phone1.png" alt="drawing" width="150vw"/>
+<img src="./renders/phone2.png" alt="drawing" width="150vw"/>
+<img src="./renders/phone3.png" alt="drawing" width="150vw"/>
+<img src="./renders/phone4.png" alt="drawing" width="150vw"/>
+<img src="./renders/phone5.png" alt="drawing" width="150vw"/>
+</div>
+
+## iPad Renders
+<img src="./renders/ipad1.png" alt="drawing" width="250vw"/>
+<img src="./renders/ipad2.png" alt="drawing" width="250vw" />
+
+## Computer Renders
+<div text-align= "center">
+<img src="./renders/comp1.png" alt="drawing" width="700vw"/>
+<img src="./renders/comp2.png" alt="drawing" width="700vw"/>
+<img src="./renders/comp3.png" alt="drawing" width="700vw"/>
+<img src="./renders/comp4.png" alt="drawing" width="700vw"/>
+</div>
 
 ## Target audience
 
@@ -25,7 +41,7 @@ The website is specifically to target future employers or those within the profe
 
 ## Tech Stack
 
-HTML, CSS, Netify
+HTML, CSS, Netlify
 
 
 
