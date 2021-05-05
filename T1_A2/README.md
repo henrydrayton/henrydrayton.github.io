@@ -16,11 +16,11 @@ There are several critical elements to my design that are concurrent with premiu
 
 ## iPhone Renders
 <div text-align= "center">
-<img src="./renders/phone1.png" alt="drawing" width="150vw"/>
-<img src="./renders/phone2.png" alt="drawing" width="150vw"/>
-<img src="./renders/phone3.png" alt="drawing" width="150vw"/>
-<img src="./renders/phone4.png" alt="drawing" width="150vw"/>
-<img src="./renders/phone5.png" alt="drawing" width="150vw"/>
+<img src="./renders/phone1.png" alt="drawing" width="200vw"/>
+<img src="./renders/phone2.png" alt="drawing" width="200vw"/>
+<img src="./renders/phone3.png" alt="drawing" width="200vw"/>
+<img src="./renders/phone4.png" alt="drawing" width="200vw"/>
+<img src="./renders/phone5.png" alt="drawing" width="200vw"/>
 </div>
 
 ## iPad Renders
