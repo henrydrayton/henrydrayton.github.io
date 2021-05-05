@@ -24,8 +24,8 @@ There are several critical elements to my design that are concurrent with premiu
 </div>
 
 ## iPad Renders
-<img src="./renders/ipad1.png" alt="drawing" width="250vw"/>
-<img src="./renders/ipad2.png" alt="drawing" width="250vw" />
+<img src="./renders/ipad1.png" alt="drawing" />
+<img src="./renders/ipad2.png" alt="drawing" />
 
 ## Computer Renders
 <div align-content= "center">
