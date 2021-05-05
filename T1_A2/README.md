@@ -15,7 +15,7 @@ There are several critical elements to my design that are concurrent with premiu
 <img src="./sitemap.png" alt="drawing" width="350vw"/>
 
 ## iPhone Renders
-<div text-align= "center">
+<div align= "center">
 <img src="./renders/phone1.png" alt="drawing" width="180vw"/>
 <img src="./renders/phone2.png" alt="drawing" width="180vw"/>
 <img src="./renders/phone3.png" alt="drawing" width="180vw"/>
@@ -24,7 +24,7 @@ There are several critical elements to my design that are concurrent with premiu
 </div>
 
 ## iPad Renders
-<div align-content= "center" display="block" margin="50%">
+<div align="center" display="block" margin="50%">
 <img src="./renders/ipad1.png" alt="drawing" width="350vw"/>
 <img src="./renders/ipad2.png" alt="drawing" width="350vw" />
 </div>
@@ -39,7 +39,7 @@ There are several critical elements to my design that are concurrent with premiu
 
 ## Target audience
 
-The website is specifically to target future employers or those within the professional developer sphere. To compete against experienced developers, all aspects of the platform must be highly refined and cater to multiple screen sizes.  The website’s layout and design resembles many common trends from leading  portfolio’s. This analysis of related competitors lets employers know that myself as a developer stays relevant to today’s design considerations. 
+The website is specifically to target future employers or those within the professional developer sphere. To compete against experienced developers, all aspects of the platform must be highly refined and cater to multiple screen sizes.  The website’s layout and design resembles many common trends from leading  portfolios. This analysis of related competitors lets employers know that myself as a developer stays relevant to today’s design considerations. 
 
 ## Tech Stack
 
